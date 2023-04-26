@@ -1,4 +1,4 @@
-# Support vector machine (1964)
+# Support vector machine (1995)
 
 ## Support vector machine for supervised machine learning
 
