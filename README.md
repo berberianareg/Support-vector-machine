@@ -64,7 +64,7 @@ see requirements.txt
 #### Links
 
 - Relevant book - (https://www.amazon.com/Neural-Networks-Learning-Machines-3rd/dp/0131471392)
-- Relevent video - (https://www.youtube.com/watch?v=_PwhiWxHK8o)
+- Relevant video - (https://www.youtube.com/watch?v=_PwhiWxHK8o)
 
 ## Author Info
 
