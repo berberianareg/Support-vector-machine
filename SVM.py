@@ -1,4 +1,4 @@
-"""Support-vector-machine (SVM) model for supervised machine learning.
+"""Support-vector-machine (SVM) for supervised machine learning.
 
 Notes
 -----
