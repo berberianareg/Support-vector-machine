@@ -1,4 +1,4 @@
-# Support vector machine (1995)
+# Support vector machine (1964)
 
 ## Support vector machine for supervised machine learning
 
@@ -64,7 +64,7 @@ see requirements.txt
 #### Links
 
 - Relevant book - (https://www.amazon.com/Neural-Networks-Learning-Machines-3rd/dp/0131471392)
-- Relevent video - (https://www.youtube.com/watch?v=_PwhiWxHK8o)
+- Relevant video - (https://www.youtube.com/watch?v=_PwhiWxHK8o)
 
 ## Author Info
 
