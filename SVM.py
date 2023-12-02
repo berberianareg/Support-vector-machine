@@ -10,7 +10,6 @@ Requirements
   See "requirements.txt"
 
 """
-
 #%% import libraries and modules
 import os
 import numpy as np  
@@ -27,7 +26,6 @@ plt.rcParams['font.size']= 15
 plt.rcParams['lines.linewidth'] = 2
 
 #%% build SVM class
-
 class SVM:
     """SVM class."""
     
@@ -266,27 +264,21 @@ class SVM:
         fig.savefig(os.path.join(os.getcwd(), 'figure_2'))
 
 #%% instantiate SVM class
-
 model = SVM()
 
 #%% create input and target patterns
-
 X = model.make_inputs()
 X_scaled = model.normalize_inputs(X)
 y = model.make_targets()
 
 #%% optimize lagrange multipliers
-        
 alpha = model.optimize_alpha(X_scaled, y)
 
 #%% find support vectors, weight and bias
-
 support_vectors, weight, bias = model.get_optimum_variables(X_scaled, y, alpha)
 
 #%% get optimal hyperplane, (+) margin and (-) margin
-
 xx, yy, zz, zz_pos, zz_neg = model.get_hyperplane(X_scaled, y, alpha, weight, bias)
 
 #%% plot figures
-
 model.plot_svm(X_scaled, y, alpha, support_vectors, bias, xx, yy, zz, zz_pos, zz_neg)
