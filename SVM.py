@@ -29,6 +29,8 @@ plt.rcParams['lines.linewidth'] = 2
 #%% build SVM class
 
 class SVM:
+    """SVM class."""
+    
     def __init__(self, class_size=100, C=1.0, kernel='rbf'):
         self.class_size = class_size
         self.C = C
